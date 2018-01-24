@@ -4,15 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "micro",
+    "start": "micro index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Mentor Kadriu <mentor.kadriu@gmail.com> (https://github.com/mentorkadriu)",
   "license": "ISC",
   "dependencies": {
-    "level": "^2.1.1",
-    "micro": "^9.1.0",
-    "then-levelup": "^1.0.2"
+    "lowdb": "^1.0.0",
+    "micro": "^9.1.0"
   }
 }
